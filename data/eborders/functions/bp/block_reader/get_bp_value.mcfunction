@@ -70,7 +70,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:iron_block"} run 
 execute if data storage minecraft:bpcheckitem {item:"minecraft:copper_block"} run tellraw @s {"text": "Block of Copper is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:gold_block"} run tellraw @s {"text": "Block of Gold is worth 18432 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:diamond_block"} run tellraw @s {"text": "Block of Diamond is worth 73728 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:netherite_block"} run tellraw @s {"text": "Block of Netherite is worth 516096 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:netherite_block"} run tellraw @s {"text": "Block of Netherite is a free expansion!","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:exposed_copper"} run tellraw @s {"text": "Exposed Copper is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:weathered_copper"} run tellraw @s {"text": "Weathered Copper is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oxidized_copper"} run tellraw @s {"text": "Oxidized Copper is worth 2304 bp","color": "#33AAFF"}
@@ -193,7 +193,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:pink_tulip"} run 
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oxeye_daisy"} run tellraw @s {"text": "Oxeye Daisy is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:cornflower"} run tellraw @s {"text": "Cornflower is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:lily_of_the_valley"} run tellraw @s {"text": "Lily of the Valley is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:wither_rose"} run tellraw @s {"text": "Wither Rose is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:wither_rose"} run tellraw @s {"text": "Wither Rose is worth 666 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spore_blossom"} run tellraw @s {"text": "Spore Blossom is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_mushroom"} run tellraw @s {"text": "Brown Mushroom is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:red_mushroom"} run tellraw @s {"text": "Red Mushroom is worth 32 bp","color": "#33AAFF"}
@@ -753,7 +753,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:porkchop"} run te
 execute if data storage minecraft:bpcheckitem {item:"minecraft:cooked_porkchop"} run tellraw @s {"text": "Cooked Porkchop is worth 64 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:painting"} run tellraw @s {"text": "Painting is worth 80 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:golden_apple"} run tellraw @s {"text": "Golden Apple is worth 16512 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:enchanted_golden_apple"} run tellraw @s {"text": "Enchanted Golden Apple is worth 147584 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:enchanted_golden_apple"} run tellraw @s {"text": "Enchanted Golden Apple is a free expansion!","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_sign"} run tellraw @s {"text": "Oak Sign is worth 17 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_sign"} run tellraw @s {"text": "Spruce Sign is worth 17 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_sign"} run tellraw @s {"text": "Birch Sign is worth 17 bp","color": "#33AAFF"}

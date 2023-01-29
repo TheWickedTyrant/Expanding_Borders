@@ -24,6 +24,7 @@ scoreboard players set ExpansionBracket BorderMath 1
 scoreboard players set ExpansionIncrement BorderMath 0
 scoreboard players set NextBPNeeded BorderMath 0
 scoreboard players set BP BorderMath 0
+scoreboard players set CurrentProgressPlaceholder1 BorderMath 0
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 scoreboard players set ExpansionBracketCap Options 4
 scoreboard players set ExpansionsPerBracketIncrease Options 10
