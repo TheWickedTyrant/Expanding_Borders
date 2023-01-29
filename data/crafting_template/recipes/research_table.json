@@ -1,0 +1,19 @@
+{
+    "type":"crafting_shaped",
+    "pattern": [
+        "AAA",
+        "ANA",
+        "AAA"
+    ],
+    "key":{
+        "A":{
+        "item":"minecraft:amethyst_shard"
+        },
+        "N":{
+            "item":"minecraft:note_block"
+            }
+    },
+    "result":{
+        "item":"minecraft:knowledge_book"
+    }
+}

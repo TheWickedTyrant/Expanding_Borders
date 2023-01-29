@@ -1,0 +1,1 @@
+summon bat ~ ~ ~ {NoAI:true,Silent:1b,ActiveEffects:[{Id:14,Amplifier:100,Duration:2140000000,ShowParticles:0b,}],Health:1,Tags:[EBWellBat]}

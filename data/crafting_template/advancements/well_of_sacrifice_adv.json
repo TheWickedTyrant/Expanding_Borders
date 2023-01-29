@@ -1,0 +1,13 @@
+{
+    "criteria":{
+        "wellUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting_template:well_of_sacrifice"
+            }
+        }
+    },
+    "rewards":{
+        "function":"crafting_template:well_of_sacrifice"
+    }
+}

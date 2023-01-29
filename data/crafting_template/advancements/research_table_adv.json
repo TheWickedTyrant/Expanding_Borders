@@ -1,0 +1,13 @@
+{
+    "criteria":{
+        "wellUnlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "crafting_template:research_table"
+            }
+        }
+    },
+    "rewards":{
+        "function":"crafting_template:research_table"
+    }
+}
