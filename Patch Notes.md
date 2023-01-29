@@ -17,3 +17,7 @@
 * enchanted golden apples and netherite blocks now give a free expansion when thrown in the well
 
     * _note this does not apply to netherite ingots or scraps_
+
+# 1.0.4 quickfix
+
+* made it so the wells cannot despawn
