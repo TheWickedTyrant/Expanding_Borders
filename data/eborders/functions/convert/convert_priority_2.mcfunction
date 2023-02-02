@@ -84,4 +84,4 @@ execute as @s[name="Ochre Froglight"] run function eborders:bp/conversion/ochre_
 execute as @s[name="Verdant Froglight"] run function eborders:bp/conversion/verdant_froglight
 execute as @s[name="Pearlescent Froglight"] run function eborders:bp/conversion/pearlescent_froglight
 
-execute if score @s ConversionTracker matches 1 run function eborders:convert/convert_priority_3
+execute if score @s EBConversionTracker matches 1 run function eborders:convert/convert_priority_3

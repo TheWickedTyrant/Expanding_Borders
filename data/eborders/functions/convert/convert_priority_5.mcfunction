@@ -251,4 +251,4 @@ execute as @s[name="Large Amethyst Bud"] run function eborders:bp/conversion/lar
 execute as @s[name="Amethyst Cluster"] run function eborders:bp/conversion/amethyst_cluster
 execute as @s[name="Echo Shard"] run function eborders:bp/conversion/echo_shard
 
-execute if score @s ConversionTracker matches 1 run function eborders:convert/na
+execute if score @s EBConversionTracker matches 1 run function eborders:convert/na

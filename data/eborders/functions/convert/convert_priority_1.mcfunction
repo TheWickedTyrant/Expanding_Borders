@@ -1,5 +1,5 @@
 #tracks wether or not the item has been killed yet
-scoreboard players set @s ConversionTracker 1
+scoreboard players set @s EBConversionTracker 1
 execute as @s[name="Wither Rose"] run function eborders:bp/conversion/wither_rose
 execute as @s[name="Bamboo"] run function eborders:bp/conversion/bamboo
 execute as @s[name="Cactus"] run function eborders:bp/conversion/cactus
@@ -28,4 +28,4 @@ execute as @s[name="Spider Eye"] run function eborders:bp/conversion/spider_eye
 execute as @s[name="Prismarine Shard"] run function eborders:bp/conversion/prismarine_shard
 execute as @s[name="Prismarine Crystals"] run function eborders:bp/conversion/prismarine_crystals
 #execute as @s[name="Shulker Shell"] run function eborders:bp/conversion/shulker_shell
-execute if score @s ConversionTracker matches 1 as @s run function eborders:convert/convert_priority_2
+execute if score @s EBConversionTracker matches 1 as @s run function eborders:convert/convert_priority_2

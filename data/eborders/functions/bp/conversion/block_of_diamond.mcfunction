@@ -1,5 +1,5 @@
-execute store result score @s BorderMath run data get entity @s Item.Count
-scoreboard players set BP BorderMath 73728
-scoreboard players operation @s BorderMath *= BP BorderMath
-scoreboard players operation CurrentProgress BorderMath += @s BorderMath
+execute store result score @s EBMath run data get entity @s Item.Count
+scoreboard players set BP EBMath 73728
+scoreboard players operation @s EBMath *= BP EBMath
+scoreboard players operation CurrentProgress EBMath += @s EBMath
 kill @s

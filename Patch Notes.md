@@ -1,23 +1,22 @@
-# **Expanding Boders 1.0.3 Patch Notes**
+# **Expanding Boders 1.1.0 Patch Notes**
 
 ---
 ## **Bug fixes**
 
-* well of sacrifice no longer drops any items when destroyed(it was dropping items set to the bat loot table from other datapacks), nor do they drop wither roses
-
-* removed the spam chat "running" on datapacks first launch
+* The World Border now expands when initiated from the nether or the end
 
 
 ---
 
 ## **Balance changes**
 
-* Wither rose BP is now set to 666
 
-* enchanted golden apples and netherite blocks now give a free expansion when thrown in the well
+---
 
-    * _note this does not apply to netherite ingots or scraps_
+## Datapack changes
 
-# 1.0.4 quickfix
+* re organized some of the datapack grouping things into folders (though its not perfect)
 
-* made it so the wells cannot despawn
+* ### scoreboard naming changes
+    * changed many names such as Options, BorderMath and more, to have prefixes EB
+        * for example, EBMath, EBOptions, EBConversionTracker

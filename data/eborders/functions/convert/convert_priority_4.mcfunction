@@ -406,4 +406,4 @@ execute as @s[name="Polished Blackstone Brick Stairs"] run function eborders:bp/
 execute as @s[name="Cracked Polished Blackstone Bricks"] run function eborders:bp/conversion/cracked_polished_blackstone_bricks
 execute as @s[name="Candle"] run function eborders:bp/conversion/candle
 
-execute if score @s ConversionTracker matches 1 run function eborders:convert/convert_priority_5
+execute if score @s EBConversionTracker matches 1 run function eborders:convert/convert_priority_5

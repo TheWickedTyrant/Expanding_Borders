@@ -218,4 +218,4 @@ execute as @s[name="Honeycomb Block"] run function eborders:bp/conversion/honeyc
 execute as @s[name="Crying Obsidian"] run function eborders:bp/conversion/crying_obsidian
 execute as @s[name="Blackstone"] run function eborders:bp/conversion/blackstone
 
-execute if score @s ConversionTracker matches 1 run function eborders:convert/convert_priority_4
+execute if score @s EBConversionTracker matches 1 run function eborders:convert/convert_priority_4
