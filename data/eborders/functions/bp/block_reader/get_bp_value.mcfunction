@@ -1,6 +1,7 @@
 #tells the player the worth of the item they are holding
 data modify storage bpcheckitem item set from entity @s SelectedItem.id
 
+
 execute if data storage minecraft:bpcheckitem {item:"minecraft:stone"} run tellraw @s {"text": "Stone is worth 1 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:granite"} run tellraw @s {"text": "Granite is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_granite"} run tellraw @s {"text": "Polished Granite is worth 16 bp","color": "#33AAFF"}
@@ -11,17 +12,17 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_andesite
 execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate"} run tellraw @s {"text": "Deepslate is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:cobbled_deepslate"} run tellraw @s {"text": "Cobbled Deepslate is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_deepslate"} run tellraw @s {"text": "Polished Deepslate is worth 2 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:calcite"} run tellraw @s {"text": "Calcite is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:tuff"} run tellraw @s {"text": "Tuff is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dripstone_block"} run tellraw @s {"text": "Dripstone Block is worth 100 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:grass_block"} run tellraw @s {"text": "Grass Block is worth 1 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:calcite"} run tellraw @s {"text": "Calcite is worth 256 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:tuff"} run tellraw @s {"text": "Tuff is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dripstone_block"} run tellraw @s {"text": "Dripstone Block is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:grass_block"} run tellraw @s {"text": "Grass Block is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:dirt"} run tellraw @s {"text": "Dirt is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:coarse_dirt"} run tellraw @s {"text": "Coarse Dirt is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:podzol"} run tellraw @s {"text": "Podzol is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:rooted_dirt"} run tellraw @s {"text": "Rooted Dirt is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mud"} run tellraw @s {"text": "Mud is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_nylium"} run tellraw @s {"text": "Crimson Nylium is worth 2 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_nylium"} run tellraw @s {"text": "Warped Nylium is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:coarse_dirt"} run tellraw @s {"text": "Coarse Dirt is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:podzol"} run tellraw @s {"text": "Podzol is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:rooted_dirt"} run tellraw @s {"text": "Rooted Dirt is worth 16 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mud"} run tellraw @s {"text": "Mud is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_nylium"} run tellraw @s {"text": "Crimson Nylium is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_nylium"} run tellraw @s {"text": "Warped Nylium is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:cobblestone"} run tellraw @s {"text": "Cobblestone is worth 1 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_planks"} run tellraw @s {"text": "Oak Planks is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_planks"} run tellraw @s {"text": "Spruce Planks is worth 8 bp","color": "#33AAFF"}
@@ -32,40 +33,40 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_planks"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_planks"} run tellraw @s {"text": "Mangrove Planks is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_planks"} run tellraw @s {"text": "Crimson Planks is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_planks"} run tellraw @s {"text": "Warped Planks is worth 8 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_sapling"} run tellraw @s {"text": "Oak Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_sapling"} run tellraw @s {"text": "Spruce Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_sapling"} run tellraw @s {"text": "Birch Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_sapling"} run tellraw @s {"text": "Jungle Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_sapling"} run tellraw @s {"text": "Acacia Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_sapling"} run tellraw @s {"text": "Dark Oak Sapling is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_propagule"} run tellraw @s {"text": "Mangrove Propagule is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sand"} run tellraw @s {"text": "Sand is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:red_sand"} run tellraw @s {"text": "Red Sand is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_sapling"} run tellraw @s {"text": "Oak Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_sapling"} run tellraw @s {"text": "Spruce Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_sapling"} run tellraw @s {"text": "Birch Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_sapling"} run tellraw @s {"text": "Jungle Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_sapling"} run tellraw @s {"text": "Acacia Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_sapling"} run tellraw @s {"text": "Dark Oak Sapling is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_propagule"} run tellraw @s {"text": "Mangrove Propagule is worth 92 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sand"} run tellraw @s {"text": "Sand is worth 16 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:red_sand"} run tellraw @s {"text": "Red Sand is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:gravel"} run tellraw @s {"text": "Gravel is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:coal_ore"} run tellraw @s {"text": "Coal Ore is worth 128 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_coal_ore"} run tellraw @s {"text": "Deepslate Coal Ore is worth 150 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:iron_ore"} run tellraw @s {"text": "Iron Ore is worth 256 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_iron_ore"} run tellraw @s {"text": "Deepslate Iron Ore is worth 278 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:copper_ore"} run tellraw @s {"text": "Copper Ore is worth 256 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_copper_ore"} run tellraw @s {"text": "Deepslate Copper Ore is worth 278 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:gold_ore"} run tellraw @s {"text": "Gold Ore is worth 2048 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_gold_ore"} run tellraw @s {"text": "Deepslate Gold Ore is worth 2100 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:redstone_ore"} run tellraw @s {"text": "Redstone Ore is worth 320 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_redstone_ore"} run tellraw @s {"text": "Deepslate Redstone Ore is worth 340 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:coal_ore"} run tellraw @s {"text": "Coal Ore is worth 256 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_coal_ore"} run tellraw @s {"text": "Deepslate Coal Ore is worth 300 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:iron_ore"} run tellraw @s {"text": "Iron Ore is worth 400 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_iron_ore"} run tellraw @s {"text": "Deepslate Iron Ore is worth 450 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:copper_ore"} run tellraw @s {"text": "Copper Ore is worth 400 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_copper_ore"} run tellraw @s {"text": "Deepslate Copper Ore is worth 450 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:gold_ore"} run tellraw @s {"text": "Gold Ore is worth 2500 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_gold_ore"} run tellraw @s {"text": "Deepslate Gold Ore is worth 2600 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:redstone_ore"} run tellraw @s {"text": "Redstone Ore is worth 600 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_redstone_ore"} run tellraw @s {"text": "Deepslate Redstone Ore is worth 600 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:emerald_ore"} run tellraw @s {"text": "Emerald Ore is worth 16384 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_emerald_ore"} run tellraw @s {"text": "Deepslate Emerald Ore is worth 16500 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:lapis_ore"} run tellraw @s {"text": "Lapis Lazuli Ore is worth 5184 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_lapis_ore"} run tellraw @s {"text": "Deepslate Lapis Lazuli Ore is worth 5300 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:diamond_ore"} run tellraw @s {"text": "Diamond Ore is worth 8192 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:lapis_ore"} run tellraw @s {"text": "Lapis Lazuli Ore is worth 6106 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_lapis_ore"} run tellraw @s {"text": "Deepslate Lapis Lazuli Ore is worth 6106 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:diamond_ore"} run tellraw @s {"text": "Diamond Ore is worth 12000 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:deepslate_diamond_ore"} run tellraw @s {"text": "Deepslate Diamond Ore is worth 8300 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_gold_ore"} run tellraw @s {"text": "Nether Gold Ore is worth 2048 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_quartz_ore"} run tellraw @s {"text": "Nether Quartz Ore is worth 256 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_gold_ore"} run tellraw @s {"text": "Nether Gold Ore is worth 1900 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_quartz_ore"} run tellraw @s {"text": "Nether Quartz Ore is worth 400 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:ancient_debris"} run tellraw @s {"text": "Ancient Debris is worth 3096 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:coal_block"} run tellraw @s {"text": "Block of Coal is worth 1152 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:raw_iron_block"} run tellraw @s {"text": "Block of Raw Iron is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:raw_copper_block"} run tellraw @s {"text": "Block of Raw Copper is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:raw_gold_block"} run tellraw @s {"text": "Block of Raw Gold is worth 18432 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:amethyst_block"} run tellraw @s {"text": "Block of Amethyst is worth 8112 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:amethyst_block"} run tellraw @s {"text": "Block of Amethyst is worth 1024 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:iron_block"} run tellraw @s {"text": "Block of Iron is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:copper_block"} run tellraw @s {"text": "Block of Copper is worth 2304 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:gold_block"} run tellraw @s {"text": "Block of Gold is worth 18432 bp","color": "#33AAFF"}
@@ -102,116 +103,116 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:waxed_cut_copper_
 execute if data storage minecraft:bpcheckitem {item:"minecraft:waxed_exposed_cut_copper_slab"} run tellraw @s {"text": "Waxed Exposed Cut Copper Slab is worth 1200 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:waxed_weathered_cut_copper_slab"} run tellraw @s {"text": "Waxed Weathered Cut Copper Slab is worth 1200 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:waxed_oxidized_cut_copper_slab"} run tellraw @s {"text": "Waxed Oxidized Cut Copper Slab is worth 1200 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_log"} run tellraw @s {"text": "Oak Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_log"} run tellraw @s {"text": "Spruce Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_log"} run tellraw @s {"text": "Birch Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_log"} run tellraw @s {"text": "Jungle Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_log"} run tellraw @s {"text": "Acacia Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_log"} run tellraw @s {"text": "Dark Oak Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_log"} run tellraw @s {"text": "Mangrove Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_roots"} run tellraw @s {"text": "Mangrove Roots is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:muddy_mangrove_roots"} run tellraw @s {"text": "Muddy Mangrove Roots is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_stem"} run tellraw @s {"text": "Crimson Stem is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_stem"} run tellraw @s {"text": "Warped Stem is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_oak_log"} run tellraw @s {"text": "Stripped Oak Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_spruce_log"} run tellraw @s {"text": "Stripped Spruce Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_birch_log"} run tellraw @s {"text": "Stripped Birch Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_jungle_log"} run tellraw @s {"text": "Stripped Jungle Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_acacia_log"} run tellraw @s {"text": "Stripped Acacia Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_dark_oak_log"} run tellraw @s {"text": "Stripped Dark Oak Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_mangrove_log"} run tellraw @s {"text": "Stripped Mangrove Log is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_crimson_stem"} run tellraw @s {"text": "Stripped Crimson Stem is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_warped_stem"} run tellraw @s {"text": "Stripped Warped Stem is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_oak_wood"} run tellraw @s {"text": "Stripped Oak Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_spruce_wood"} run tellraw @s {"text": "Stripped Spruce Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_birch_wood"} run tellraw @s {"text": "Stripped Birch Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_jungle_wood"} run tellraw @s {"text": "Stripped Jungle Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_acacia_wood"} run tellraw @s {"text": "Stripped Acacia Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_dark_oak_wood"} run tellraw @s {"text": "Stripped Dark Oak Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_mangrove_wood"} run tellraw @s {"text": "Stripped Mangrove Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_crimson_hyphae"} run tellraw @s {"text": "Stripped Crimson Hyphae is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_warped_hyphae"} run tellraw @s {"text": "Stripped Warped Hyphae is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_wood"} run tellraw @s {"text": "Oak Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_wood"} run tellraw @s {"text": "Spruce Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_wood"} run tellraw @s {"text": "Birch Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_wood"} run tellraw @s {"text": "Jungle Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_wood"} run tellraw @s {"text": "Acacia Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_wood"} run tellraw @s {"text": "Dark Oak Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_wood"} run tellraw @s {"text": "Mangrove Wood is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_hyphae"} run tellraw @s {"text": "Crimson Hyphae is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_hyphae"} run tellraw @s {"text": "Warped Hyphae is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_leaves"} run tellraw @s {"text": "Oak Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_leaves"} run tellraw @s {"text": "Spruce Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_leaves"} run tellraw @s {"text": "Birch Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_leaves"} run tellraw @s {"text": "Jungle Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_leaves"} run tellraw @s {"text": "Acacia Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_leaves"} run tellraw @s {"text": "Dark Oak Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_leaves"} run tellraw @s {"text": "Mangrove Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:azalea_leaves"} run tellraw @s {"text": "Azalea Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:flowering_azalea_leaves"} run tellraw @s {"text": "Flowering Azalea Leaves is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sponge"} run tellraw @s {"text": "Sponge is worth 128 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:wet_sponge"} run tellraw @s {"text": "Wet Sponge is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_log"} run tellraw @s {"text": "Oak Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_log"} run tellraw @s {"text": "Spruce Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_log"} run tellraw @s {"text": "Birch Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_log"} run tellraw @s {"text": "Jungle Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_log"} run tellraw @s {"text": "Acacia Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_log"} run tellraw @s {"text": "Dark Oak Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_log"} run tellraw @s {"text": "Mangrove Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_roots"} run tellraw @s {"text": "Mangrove Roots is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:muddy_mangrove_roots"} run tellraw @s {"text": "Muddy Mangrove Roots is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_stem"} run tellraw @s {"text": "Crimson Stem is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_stem"} run tellraw @s {"text": "Warped Stem is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_oak_log"} run tellraw @s {"text": "Stripped Oak Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_spruce_log"} run tellraw @s {"text": "Stripped Spruce Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_birch_log"} run tellraw @s {"text": "Stripped Birch Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_jungle_log"} run tellraw @s {"text": "Stripped Jungle Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_acacia_log"} run tellraw @s {"text": "Stripped Acacia Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_dark_oak_log"} run tellraw @s {"text": "Stripped Dark Oak Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_mangrove_log"} run tellraw @s {"text": "Stripped Mangrove Log is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_crimson_stem"} run tellraw @s {"text": "Stripped Crimson Stem is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_warped_stem"} run tellraw @s {"text": "Stripped Warped Stem is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_oak_wood"} run tellraw @s {"text": "Stripped Oak Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_spruce_wood"} run tellraw @s {"text": "Stripped Spruce Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_birch_wood"} run tellraw @s {"text": "Stripped Birch Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_jungle_wood"} run tellraw @s {"text": "Stripped Jungle Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_acacia_wood"} run tellraw @s {"text": "Stripped Acacia Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_dark_oak_wood"} run tellraw @s {"text": "Stripped Dark Oak Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_mangrove_wood"} run tellraw @s {"text": "Stripped Mangrove Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_crimson_hyphae"} run tellraw @s {"text": "Stripped Crimson Hyphae is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:stripped_warped_hyphae"} run tellraw @s {"text": "Stripped Warped Hyphae is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_wood"} run tellraw @s {"text": "Oak Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_wood"} run tellraw @s {"text": "Spruce Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_wood"} run tellraw @s {"text": "Birch Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_wood"} run tellraw @s {"text": "Jungle Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_wood"} run tellraw @s {"text": "Acacia Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_wood"} run tellraw @s {"text": "Dark Oak Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_wood"} run tellraw @s {"text": "Mangrove Wood is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_hyphae"} run tellraw @s {"text": "Crimson Hyphae is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_hyphae"} run tellraw @s {"text": "Warped Hyphae is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_leaves"} run tellraw @s {"text": "Oak Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_leaves"} run tellraw @s {"text": "Spruce Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_leaves"} run tellraw @s {"text": "Birch Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:jungle_leaves"} run tellraw @s {"text": "Jungle Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:acacia_leaves"} run tellraw @s {"text": "Acacia Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_leaves"} run tellraw @s {"text": "Dark Oak Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_leaves"} run tellraw @s {"text": "Mangrove Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:azalea_leaves"} run tellraw @s {"text": "Azalea Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:flowering_azalea_leaves"} run tellraw @s {"text": "Flowering Azalea Leaves is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sponge"} run tellraw @s {"text": "Sponge is worth 26523 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:wet_sponge"} run tellraw @s {"text": "Wet Sponge is worth 26523 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:glass"} run tellraw @s {"text": "Glass is worth 1 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:tinted_glass"} run tellraw @s {"text": "Tinted Glass is worth 8113 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:lapis_block"} run tellraw @s {"text": "Block of Lapis Lazuli is worth 7777 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sandstone"} run tellraw @s {"text": "Sandstone is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:chiseled_sandstone"} run tellraw @s {"text": "Chiseled Sandstone is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:cut_sandstone"} run tellraw @s {"text": "Cut Sandstone is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:cobweb"} run tellraw @s {"text": "Cobweb is worth 10 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:grass"} run tellraw @s {"text": "Grass is worth 1 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sandstone"} run tellraw @s {"text": "Sandstone is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:chiseled_sandstone"} run tellraw @s {"text": "Chiseled Sandstone is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:cut_sandstone"} run tellraw @s {"text": "Cut Sandstone is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:cobweb"} run tellraw @s {"text": "Cobweb is worth 1028 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:grass"} run tellraw @s {"text": "Grass is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:fern"} run tellraw @s {"text": "Fern is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:azalea"} run tellraw @s {"text": "Azalea is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:flowering_azalea"} run tellraw @s {"text": "Flowering Azalea is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:azalea"} run tellraw @s {"text": "Azalea is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:flowering_azalea"} run tellraw @s {"text": "Flowering Azalea is worth 120 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bush"} run tellraw @s {"text": "Dead Bush is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:seagrass"} run tellraw @s {"text": "Seagrass is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sea_pickle"} run tellraw @s {"text": "Sea Pickle is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:white_wool"} run tellraw @s {"text": "White Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:orange_wool"} run tellraw @s {"text": "Orange Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:magenta_wool"} run tellraw @s {"text": "Magenta Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:light_blue_wool"} run tellraw @s {"text": "Light Blue Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:yellow_wool"} run tellraw @s {"text": "Yellow Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:lime_wool"} run tellraw @s {"text": "Lime Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:pink_wool"} run tellraw @s {"text": "Pink Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:gray_wool"} run tellraw @s {"text": "Gray Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:light_gray_wool"} run tellraw @s {"text": "Light Gray Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:cyan_wool"} run tellraw @s {"text": "Cyan Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:purple_wool"} run tellraw @s {"text": "Purple Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_wool"} run tellraw @s {"text": "Blue Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_wool"} run tellraw @s {"text": "Brown Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:green_wool"} run tellraw @s {"text": "Green Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:red_wool"} run tellraw @s {"text": "Red Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:black_wool"} run tellraw @s {"text": "Black Wool is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dandelion"} run tellraw @s {"text": "Dandelion is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:poppy"} run tellraw @s {"text": "Poppy is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_orchid"} run tellraw @s {"text": "Blue Orchid is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:allium"} run tellraw @s {"text": "Allium is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:azure_bluet"} run tellraw @s {"text": "Azure Bluet is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:red_tulip"} run tellraw @s {"text": "Red Tulip is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:orange_tulip"} run tellraw @s {"text": "Orange Tulip is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:white_tulip"} run tellraw @s {"text": "White Tulip is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:pink_tulip"} run tellraw @s {"text": "Pink Tulip is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:oxeye_daisy"} run tellraw @s {"text": "Oxeye Daisy is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:cornflower"} run tellraw @s {"text": "Cornflower is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:lily_of_the_valley"} run tellraw @s {"text": "Lily of the Valley is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:wither_rose"} run tellraw @s {"text": "Wither Rose is worth 666 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:seagrass"} run tellraw @s {"text": "Seagrass is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sea_pickle"} run tellraw @s {"text": "Sea Pickle is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:white_wool"} run tellraw @s {"text": "White Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:orange_wool"} run tellraw @s {"text": "Orange Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:magenta_wool"} run tellraw @s {"text": "Magenta Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:light_blue_wool"} run tellraw @s {"text": "Light Blue Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:yellow_wool"} run tellraw @s {"text": "Yellow Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:lime_wool"} run tellraw @s {"text": "Lime Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:pink_wool"} run tellraw @s {"text": "Pink Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:gray_wool"} run tellraw @s {"text": "Gray Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:light_gray_wool"} run tellraw @s {"text": "Light Gray Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:cyan_wool"} run tellraw @s {"text": "Cyan Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:purple_wool"} run tellraw @s {"text": "Purple Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_wool"} run tellraw @s {"text": "Blue Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_wool"} run tellraw @s {"text": "Brown Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:green_wool"} run tellraw @s {"text": "Green Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:red_wool"} run tellraw @s {"text": "Red Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:black_wool"} run tellraw @s {"text": "Black Wool is worth 80 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dandelion"} run tellraw @s {"text": "Dandelion is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:poppy"} run tellraw @s {"text": "Poppy is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_orchid"} run tellraw @s {"text": "Blue Orchid is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:allium"} run tellraw @s {"text": "Allium is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:azure_bluet"} run tellraw @s {"text": "Azure Bluet is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:red_tulip"} run tellraw @s {"text": "Red Tulip is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:orange_tulip"} run tellraw @s {"text": "Orange Tulip is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:white_tulip"} run tellraw @s {"text": "White Tulip is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:pink_tulip"} run tellraw @s {"text": "Pink Tulip is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:oxeye_daisy"} run tellraw @s {"text": "Oxeye Daisy is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:cornflower"} run tellraw @s {"text": "Cornflower is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:lily_of_the_valley"} run tellraw @s {"text": "Lily of the Valley is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:wither_rose"} run tellraw @s {"text": "Wither Rose is worth 1609 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spore_blossom"} run tellraw @s {"text": "Spore Blossom is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_mushroom"} run tellraw @s {"text": "Brown Mushroom is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:red_mushroom"} run tellraw @s {"text": "Red Mushroom is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_fungus"} run tellraw @s {"text": "Crimson Fungus is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_fungus"} run tellraw @s {"text": "Warped Fungus is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_roots"} run tellraw @s {"text": "Crimson Roots is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_roots"} run tellraw @s {"text": "Warped Roots is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_sprouts"} run tellraw @s {"text": "Nether Sprouts is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:weeping_vines"} run tellraw @s {"text": "Weeping Vines is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:twisting_vines"} run tellraw @s {"text": "Twisting Vines is worth 1 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_mushroom"} run tellraw @s {"text": "Brown Mushroom is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:red_mushroom"} run tellraw @s {"text": "Red Mushroom is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_fungus"} run tellraw @s {"text": "Crimson Fungus is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_fungus"} run tellraw @s {"text": "Warped Fungus is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_roots"} run tellraw @s {"text": "Crimson Roots is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_roots"} run tellraw @s {"text": "Warped Roots is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_sprouts"} run tellraw @s {"text": "Nether Sprouts is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:weeping_vines"} run tellraw @s {"text": "Weeping Vines is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:twisting_vines"} run tellraw @s {"text": "Twisting Vines is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:sugar_cane"} run tellraw @s {"text": "Sugar Cane is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:kelp"} run tellraw @s {"text": "Kelp is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:moss_carpet"} run tellraw @s {"text": "Moss Carpet is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:moss_block"} run tellraw @s {"text": "Moss Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:hanging_roots"} run tellraw @s {"text": "Hanging Roots is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:big_dripleaf"} run tellraw @s {"text": "Big Dripleaf is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:small_dripleaf"} run tellraw @s {"text": "Small Dripleaf is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:bamboo"} run tellraw @s {"text": "Bamboo is worth 1 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:kelp"} run tellraw @s {"text": "Kelp is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:moss_carpet"} run tellraw @s {"text": "Moss Carpet is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:moss_block"} run tellraw @s {"text": "Moss Block is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:hanging_roots"} run tellraw @s {"text": "Hanging Roots is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:big_dripleaf"} run tellraw @s {"text": "Big Dripleaf is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:small_dripleaf"} run tellraw @s {"text": "Small Dripleaf is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:bamboo"} run tellraw @s {"text": "Bamboo is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_slab"} run tellraw @s {"text": "Oak Slab is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_slab"} run tellraw @s {"text": "Spruce Slab is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_slab"} run tellraw @s {"text": "Birch Slab is worth 4 bp","color": "#33AAFF"}
@@ -244,7 +245,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:smooth_stone"} ru
 execute if data storage minecraft:bpcheckitem {item:"minecraft:bricks"} run tellraw @s {"text": "Bricks is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:bookshelf"} run tellraw @s {"text": "Bookshelf is worth 530 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mossy_cobblestone"} run tellraw @s {"text": "Mossy Cobblestone is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:obsidian"} run tellraw @s {"text": "Obsidian is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:obsidian"} run tellraw @s {"text": "Obsidian is worth 512 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:torch"} run tellraw @s {"text": "Torch is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:end_rod"} run tellraw @s {"text": "End Rod is worth 450 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:chorus_flower"} run tellraw @s {"text": "Chorus Flower is worth 32 bp","color": "#33AAFF"}
@@ -257,9 +258,9 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:furnace"} run tel
 execute if data storage minecraft:bpcheckitem {item:"minecraft:ladder"} run tellraw @s {"text": "Ladder is worth 9 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:cobblestone_stairs"} run tellraw @s {"text": "Cobblestone Stairs is worth 1 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:snow"} run tellraw @s {"text": "Snow is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:ice"} run tellraw @s {"text": "Ice is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:ice"} run tellraw @s {"text": "Ice is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:snow_block"} run tellraw @s {"text": "Snow Block is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:cactus"} run tellraw @s {"text": "Cactus is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:cactus"} run tellraw @s {"text": "Cactus is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:clay"} run tellraw @s {"text": "Clay is worth 64 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:jukebox"} run tellraw @s {"text": "Jukebox is worth 8550 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_fence"} run tellraw @s {"text": "Oak Fence is worth 13 bp","color": "#33AAFF"}
@@ -271,15 +272,15 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:dark_oak_fence"} 
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mangrove_fence"} run tellraw @s {"text": "Mangrove Fence is worth 13 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:crimson_fence"} run tellraw @s {"text": "Crimson Fence is worth 13 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_fence"} run tellraw @s {"text": "Warped Fence is worth 13 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:pumpkin"} run tellraw @s {"text": "Pumpkin is worth 144 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:carved_pumpkin"} run tellraw @s {"text": "Carved Pumpkin is worth 144 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:jack_o_lantern"} run tellraw @s {"text": "Jack o'Lantern is worth 150 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:pumpkin"} run tellraw @s {"text": "Pumpkin is worth 244 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:carved_pumpkin"} run tellraw @s {"text": "Carved Pumpkin is worth 250 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:jack_o_lantern"} run tellraw @s {"text": "Jack o'Lantern is worth 255 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:netherrack"} run tellraw @s {"text": "Netherrack is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:soul_sand"} run tellraw @s {"text": "Soul Sand is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:soul_soil"} run tellraw @s {"text": "Soul Soil is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:basalt"} run tellraw @s {"text": "Basalt is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_basalt"} run tellraw @s {"text": "Polished Basalt is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:smooth_basalt"} run tellraw @s {"text": "Smooth Basalt is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:soul_sand"} run tellraw @s {"text": "Soul Sand is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:soul_soil"} run tellraw @s {"text": "Soul Soil is worth 8 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:basalt"} run tellraw @s {"text": "Basalt is worth 16 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_basalt"} run tellraw @s {"text": "Polished Basalt is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:smooth_basalt"} run tellraw @s {"text": "Smooth Basalt is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:soul_torch"} run tellraw @s {"text": "Soul Torch is worth 21 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:glowstone"} run tellraw @s {"text": "Glowstone is worth 1536 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:stone_bricks"} run tellraw @s {"text": "Stone Bricks is worth 1 bp","color": "#33AAFF"}
@@ -295,7 +296,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:cracked_deepslate
 execute if data storage minecraft:bpcheckitem {item:"minecraft:chiseled_deepslate"} run tellraw @s {"text": "Chiseled Deepslate is worth 2 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:brown_mushroom_block"} run tellraw @s {"text": "Brown Mushroom Block is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:red_mushroom_block"} run tellraw @s {"text": "Red Mushroom Block is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:mushroom_stem"} run tellraw @s {"text": "Mushroom Stem is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:mushroom_stem"} run tellraw @s {"text": "Mushroom Stem is worth 42 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:iron_bars"} run tellraw @s {"text": "Iron Bars is worth 96 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:chain"} run tellraw @s {"text": "Chain is worth 312 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:glass_pane"} run tellraw @s {"text": "Glass Pane is worth 1 bp","color": "#33AAFF"}
@@ -312,17 +313,17 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:cracked_nether_br
 execute if data storage minecraft:bpcheckitem {item:"minecraft:chiseled_nether_bricks"} run tellraw @s {"text": "Chiseled Nether Bricks is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_brick_fence"} run tellraw @s {"text": "Nether Brick Fence is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_brick_stairs"} run tellraw @s {"text": "Nether Brick Stairs is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk"} run tellraw @s {"text": "Sculk is worth 2 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_vein"} run tellraw @s {"text": "Sculk Vein is worth 2 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_catalyst"} run tellraw @s {"text": "Sculk Catalyst is worth 32 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_shrieker"} run tellraw @s {"text": "Sculk Shrieker is worth 32 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk"} run tellraw @s {"text": "Sculk is worth 3 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_vein"} run tellraw @s {"text": "Sculk Vein is worth 3 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_catalyst"} run tellraw @s {"text": "Sculk Catalyst is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sculk_shrieker"} run tellraw @s {"text": "Sculk Shrieker is worth 64 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:enchanting_table"} run tellraw @s {"text": "Enchanting Table is worth 17000 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone"} run tellraw @s {"text": "End Stone is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone_bricks"} run tellraw @s {"text": "End Stone Bricks is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dragon_egg"} run tellraw @s {"text": "Dragon Egg is worth 1024 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:sandstone_stairs"} run tellraw @s {"text": "Sandstone Stairs is worth 4 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:ender_chest"} run tellraw @s {"text": "Ender Chest is worth 2304 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:emerald_block"} run tellraw @s {"text": "Block of Emerald is worth 147456 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone"} run tellraw @s {"text": "End Stone is worth 120 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone_bricks"} run tellraw @s {"text": "End Stone Bricks is worth 120 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dragon_egg"} run tellraw @s {"text": "Dragon Egg is worth 2048 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:sandstone_stairs"} run tellraw @s {"text": "Sandstone Stairs is worth 16 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:ender_chest"} run tellraw @s {"text": "Ender Chest is worth 4304 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:emerald_block"} run tellraw @s {"text": "Block of Emerald is worth 7704 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_stairs"} run tellraw @s {"text": "Oak Stairs is worth 12 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_stairs"} run tellraw @s {"text": "Spruce Stairs is worth 12 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:birch_stairs"} run tellraw @s {"text": "Birch Stairs is worth 12 bp","color": "#33AAFF"}
@@ -346,7 +347,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_brick_wall
 execute if data storage minecraft:bpcheckitem {item:"minecraft:andesite_wall"} run tellraw @s {"text": "Andesite Wall is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:red_nether_brick_wall"} run tellraw @s {"text": "Red Nether Brick Wall is worth 5 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:sandstone_wall"} run tellraw @s {"text": "Sandstone Wall is worth 2 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone_brick_wall"} run tellraw @s {"text": "End Stone Brick Wall is worth 2 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:end_stone_brick_wall"} run tellraw @s {"text": "End Stone Brick Wall is worth 8 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:diorite_wall"} run tellraw @s {"text": "Diorite Wall is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:blackstone_wall"} run tellraw @s {"text": "Blackstone Wall is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_blackstone_wall"} run tellraw @s {"text": "Polished Blackstone Wall is worth 4 bp","color": "#33AAFF"}
@@ -397,7 +398,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:green_carpet"} ru
 execute if data storage minecraft:bpcheckitem {item:"minecraft:red_carpet"} run tellraw @s {"text": "Red Carpet is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:black_carpet"} run tellraw @s {"text": "Black Carpet is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:terracotta"} run tellraw @s {"text": "Terracotta is worth 64 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:packed_ice"} run tellraw @s {"text": "Packed Ice is worth 36 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:packed_ice"} run tellraw @s {"text": "Packed Ice is worth 100 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:sunflower"} run tellraw @s {"text": "Sunflower is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:lilac"} run tellraw @s {"text": "Lilac is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:rose_bush"} run tellraw @s {"text": "Rose Bush is worth 16 bp","color": "#33AAFF"}
@@ -501,40 +502,40 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:green_concrete_po
 execute if data storage minecraft:bpcheckitem {item:"minecraft:red_concrete_powder"} run tellraw @s {"text": "Red Concrete Powder is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:black_concrete_powder"} run tellraw @s {"text": "Black Concrete Powder is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:turtle_egg"} run tellraw @s {"text": "Turtle Egg is worth 192 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral_block"} run tellraw @s {"text": "Dead Tube Coral Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral_block"} run tellraw @s {"text": "Dead Brain Coral Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral_block"} run tellraw @s {"text": "Dead Bubble Coral Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral_block"} run tellraw @s {"text": "Dead Fire Coral Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral_block"} run tellraw @s {"text": "Dead Horn Coral Block is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral_block"} run tellraw @s {"text": "Tube Coral Block is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral_block"} run tellraw @s {"text": "Brain Coral Block is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral_block"} run tellraw @s {"text": "Bubble Coral Block is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral_block"} run tellraw @s {"text": "Fire Coral Block is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral_block"} run tellraw @s {"text": "Horn Coral Block is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral"} run tellraw @s {"text": "Tube Coral is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral"} run tellraw @s {"text": "Brain Coral is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral"} run tellraw @s {"text": "Bubble Coral is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral"} run tellraw @s {"text": "Fire Coral is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral"} run tellraw @s {"text": "Horn Coral is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral"} run tellraw @s {"text": "Dead Brain Coral is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral"} run tellraw @s {"text": "Dead Bubble Coral is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral"} run tellraw @s {"text": "Dead Fire Coral is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral"} run tellraw @s {"text": "Dead Horn Coral is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral"} run tellraw @s {"text": "Dead Tube Coral is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral_fan"} run tellraw @s {"text": "Tube Coral Fan is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral_fan"} run tellraw @s {"text": "Brain Coral Fan is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral_fan"} run tellraw @s {"text": "Bubble Coral Fan is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral_fan"} run tellraw @s {"text": "Fire Coral Fan is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral_fan"} run tellraw @s {"text": "Horn Coral Fan is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral_fan"} run tellraw @s {"text": "Dead Tube Coral Fan is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral_fan"} run tellraw @s {"text": "Dead Brain Coral Fan is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral_fan"} run tellraw @s {"text": "Dead Bubble Coral Fan is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral_fan"} run tellraw @s {"text": "Dead Fire Coral Fan is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral_fan"} run tellraw @s {"text": "Dead Horn Coral Fan is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_ice"} run tellraw @s {"text": "Blue Ice is worth 324 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:conduit"} run tellraw @s {"text": "Conduit is worth 40960 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral_block"} run tellraw @s {"text": "Dead Tube Coral Block is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral_block"} run tellraw @s {"text": "Dead Brain Coral Block is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral_block"} run tellraw @s {"text": "Dead Bubble Coral Block is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral_block"} run tellraw @s {"text": "Dead Fire Coral Block is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral_block"} run tellraw @s {"text": "Dead Horn Coral Block is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral_block"} run tellraw @s {"text": "Tube Coral Block is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral_block"} run tellraw @s {"text": "Brain Coral Block is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral_block"} run tellraw @s {"text": "Bubble Coral Block is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral_block"} run tellraw @s {"text": "Fire Coral Block is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral_block"} run tellraw @s {"text": "Horn Coral Block is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral"} run tellraw @s {"text": "Tube Coral is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral"} run tellraw @s {"text": "Brain Coral is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral"} run tellraw @s {"text": "Bubble Coral is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral"} run tellraw @s {"text": "Fire Coral is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral"} run tellraw @s {"text": "Horn Coral is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral"} run tellraw @s {"text": "Dead Brain Coral is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral"} run tellraw @s {"text": "Dead Bubble Coral is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral"} run tellraw @s {"text": "Dead Fire Coral is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral"} run tellraw @s {"text": "Dead Horn Coral is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral"} run tellraw @s {"text": "Dead Tube Coral is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:tube_coral_fan"} run tellraw @s {"text": "Tube Coral Fan is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:brain_coral_fan"} run tellraw @s {"text": "Brain Coral Fan is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:bubble_coral_fan"} run tellraw @s {"text": "Bubble Coral Fan is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:fire_coral_fan"} run tellraw @s {"text": "Fire Coral Fan is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:horn_coral_fan"} run tellraw @s {"text": "Horn Coral Fan is worth 64 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_tube_coral_fan"} run tellraw @s {"text": "Dead Tube Coral Fan is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_brain_coral_fan"} run tellraw @s {"text": "Dead Brain Coral Fan is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_bubble_coral_fan"} run tellraw @s {"text": "Dead Bubble Coral Fan is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_fire_coral_fan"} run tellraw @s {"text": "Dead Fire Coral Fan is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dead_horn_coral_fan"} run tellraw @s {"text": "Dead Horn Coral Fan is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:blue_ice"} run tellraw @s {"text": "Blue Ice is worth 1024 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:conduit"} run tellraw @s {"text": "Conduit is a free expansion!","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_granite_stairs"} run tellraw @s {"text": "Polished Granite Stairs is worth 16 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:smooth_red_sandstone_stairs"} run tellraw @s {"text": "Smooth Red Sandstone Stairs is worth 4 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:smooth_red_sandstone_stairs"} run tellraw @s {"text": "Smooth Red Sandstone Stairs is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mossy_stone_brick_stairs"} run tellraw @s {"text": "Mossy Stone Brick Stairs is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_diorite_stairs"} run tellraw @s {"text": "Polished Diorite Stairs is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mossy_cobblestone_stairs"} run tellraw @s {"text": "Mossy Cobblestone Stairs is worth 4 bp","color": "#33AAFF"}
@@ -577,7 +578,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:comparator"} run 
 execute if data storage minecraft:bpcheckitem {item:"minecraft:piston"} run tellraw @s {"text": "Piston is worth 348 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:sticky_piston"} run tellraw @s {"text": "Sticky Piston is worth 380 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:slime_block"} run tellraw @s {"text": "Slime Block is worth 288 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:honey_block"} run tellraw @s {"text": "Honey Block is worth 188 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:honey_block"} run tellraw @s {"text": "Honey Block is worth 512 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:observer"} run tellraw @s {"text": "Observer is worth 390 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:hopper"} run tellraw @s {"text": "Hopper is worth 1344 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:dispenser"} run tellraw @s {"text": "Dispenser is worth 119 bp","color": "#33AAFF"}
@@ -658,7 +659,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:tnt_minecart"} ru
 execute if data storage minecraft:bpcheckitem {item:"minecraft:hopper_minecart"} run tellraw @s {"text": "Minecart with Hopper is worth 2624 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:carrot_on_a_stick"} run tellraw @s {"text": "Carrot on a Stick is worth 104 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:warped_fungus_on_a_stick"} run tellraw @s {"text": "Warped Fungus on a Stick is worth 68 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:elytra"} run tellraw @s {"text": "Elytra is worth 60000 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:elytra"} run tellraw @s {"text": "Elytra is worth 128516 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_boat"} run tellraw @s {"text": "Oak Boat is worth 40 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:oak_chest_boat"} run tellraw @s {"text": "Oak Boat with Chest is worth 104 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:spruce_boat"} run tellraw @s {"text": "Spruce Boat is worth 104 bp","color": "#33AAFF"}
@@ -682,7 +683,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:arrow"} run tellr
 execute if data storage minecraft:bpcheckitem {item:"minecraft:coal"} run tellraw @s {"text": "Coal is worth 128 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:charcoal"} run tellraw @s {"text": "Charcoal is worth 32 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:diamond"} run tellraw @s {"text": "Diamond is worth 8192 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:emerald"} run tellraw @s {"text": "Emerald is worth 16384 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:emerald"} run tellraw @s {"text": "Emerald is worth 856 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:lapis_lazuli"} run tellraw @s {"text": "Lapis Lazuli is worth 864 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:quartz"} run tellraw @s {"text": "Nether Quartz is worth 256 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:amethyst_shard"} run tellraw @s {"text": "Amethyst Shard is worth 256 bp","color": "#33AAFF"}
@@ -722,9 +723,9 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:diamond_hoe"} run
 execute if data storage minecraft:bpcheckitem {item:"minecraft:stick"} run tellraw @s {"text": "Stick is worth 4 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:bowl"} run tellraw @s {"text": "Bowl is worth 6 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:mushroom_stew"} run tellraw @s {"text": "Mushroom Stew is worth 70 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:string"} run tellraw @s {"text": "String is worth 12 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:string"} run tellraw @s {"text": "String is worth 144 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:feather"} run tellraw @s {"text": "Feather is worth 48 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:gunpowder"} run tellraw @s {"text": "Gunpowder is worth 192 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:gunpowder"} run tellraw @s {"text": "Gunpowder is worth 144 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:wheat_seeds"} run tellraw @s {"text": "Wheat Seeds is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:wheat"} run tellraw @s {"text": "Wheat is worth 24 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:bread"} run tellraw @s {"text": "Bread is worth 72 bp","color": "#33AAFF"}
@@ -852,7 +853,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:ghast_tear"} run 
 execute if data storage minecraft:bpcheckitem {item:"minecraft:gold_nugget"} run tellraw @s {"text": "Gold Nugget is worth 227 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:nether_wart"} run tellraw @s {"text": "Nether Wart is worth 24 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:glass_bottle"} run tellraw @s {"text": "Glass Bottle is worth 1 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:spider_eye"} run tellraw @s {"text": "Spider Eye is worth 128 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:spider_eye"} run tellraw @s {"text": "Spider Eye is worth 150 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:fermented_spider_eye"} run tellraw @s {"text": "Fermented Spider Eye is worth 175 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:blaze_powder"} run tellraw @s {"text": "Blaze Powder is worth 768 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:magma_cream"} run tellraw @s {"text": "Magma Cream is worth 800 bp","color": "#33AAFF"}
@@ -925,7 +926,7 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:disc_fragment_5"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:trident"} run tellraw @s {"text": "Trident is worth 16463 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:phantom_membrane"} run tellraw @s {"text": "Phantom Membrane is worth 192 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:nautilus_shell"} run tellraw @s {"text": "Nautilus Shell is worth 1024 bp","color": "#33AAFF"}
-execute if data storage minecraft:bpcheckitem {item:"minecraft:heart_of_the_sea"} run tellraw @s {"text": "Heart of the Sea is worth 30768 bp","color": "#33AAFF"}
+execute if data storage minecraft:bpcheckitem {item:"minecraft:heart_of_the_sea"} run tellraw @s {"text": "Heart of the Sea is a free expansion!","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:crossbow"} run tellraw @s {"text": "Crossbow is worth 427 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:loom"} run tellraw @s {"text": "Loom is worth 40 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:goat_horn"} run tellraw @s {"text": "Goat Horn is worth 144 bp","color": "#33AAFF"}
@@ -992,6 +993,8 @@ execute if data storage minecraft:bpcheckitem {item:"minecraft:ochre_froglight"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:verdant_froglight"} run tellraw @s {"text": "Verdant Froglight is worth 124 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:pearlescent_froglight"} run tellraw @s {"text": "Pearlescent Froglight is worth 124 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:echo_shard"} run tellraw @s {"text": "Echo Shard is worth 24958 bp","color": "#33AAFF"}
+
+
 
 #removes the storage for the next test
 data remove storage bpcheckitem item
