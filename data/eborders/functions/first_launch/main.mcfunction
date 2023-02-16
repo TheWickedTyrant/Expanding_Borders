@@ -39,7 +39,6 @@ execute in minecraft:the_end run worldborder set 50
 execute in minecraft:the_nether run worldborder set 50
 worldborder center 0 0
 setworldspawn 0 64 0
-summon area_effect_cloud 0 315 0 {Duration:10000,Tags:[treesummoner]}
-execute as @e[tag=treesummoner] at @s run function eborders:first_launch/place_tree/check_tree
-
+forceload add 0 0
+schedule function eborders:first_launch/main_2 5s
 #keeps the pack from running this function more then one time

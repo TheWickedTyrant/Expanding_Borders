@@ -1,0 +1,2 @@
+scoreboard players reset oak_success EBMath
+scoreboard players reset StopTreeCheck EBMath

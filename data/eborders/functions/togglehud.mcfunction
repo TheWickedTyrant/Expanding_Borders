@@ -1,7 +1,7 @@
 execute if entity @s[tag=ShowBHUD] run scoreboard players set x EB_HUD 1
-execute if entity @s[tag=ShowBHUD] run tell @s 'bhud off'
+execute if entity @s[tag=ShowBHUD] run tellraw @s {"text": "EB_HUD Switched off","color": "#FFAA00"}
 execute if entity @s[tag=ShowBHUD] run tag @s remove ShowBHUD
-execute unless entity @s[tag=ShowBHUD] run execute unless score x EB_HUD matches 1 run tell @s 'bhud on'
+execute unless entity @s[tag=ShowBHUD] run execute unless score x EB_HUD matches 1 run tellraw @s {"text": "EB_HUD Switched on","color": "#FFAA00"}
 execute unless entity @s[tag=ShowBHUD] run execute unless score x EB_HUD matches 1 run tag @s add ShowBHUD
 bossbar remove minecraft:progressbar
 bossbar add minecraft:progressbar ["",{"text":"Progress: ","bold":true,"color":"blue"},{"score":{"name":"CurrentProgress","objective":"EBMath"},"color":"#FFAA79"},{"text":"/","color":"black"},{"score":{"name":"NextExpansion","objective":"EBMath"},"color":"#FFAA00"},{"text":"   Size: ","color":"gold"},{"score":{"name":"borderSize","objective":"EBMath"},"color":"gold"}]

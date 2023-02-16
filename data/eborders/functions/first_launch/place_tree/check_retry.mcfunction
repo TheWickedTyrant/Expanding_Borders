@@ -1,0 +1,1 @@
+execute as @e[tag=treesummoner] at @s unless score StopTreeCheck EBMath matches 1 run function eborders:first_launch/place_tree/check_tree
