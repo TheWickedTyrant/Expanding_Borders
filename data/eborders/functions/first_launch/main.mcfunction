@@ -14,12 +14,12 @@ scoreboard objectives add EBHelp trigger
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
                             #variables in structs and their base values - not meant to be tampered with
     #EBMath
-scoreboard players set OverWorldBorder EBMath 50
-scoreboard players set NetherWorldBorder EBMath 50
-scoreboard players set EndWorldBorder EBMath 50
+scoreboard players set OverWorldBorder EBMath 8
+scoreboard players set NetherWorldBorder EBMath 8
+scoreboard players set EndWorldBorder EBMath 8
 scoreboard players set CurrentProgress EBMath 0
 scoreboard players set Expansion: EBMath 1
-scoreboard players set NextExpansion EBMath 100
+scoreboard players set NextExpansion EBMath 1024
 scoreboard players set ExpansionBracket EBMath 1
 scoreboard players set ExpansionIncrement EBMath 0
 scoreboard players set NextBPNeeded EBMath 0
@@ -34,9 +34,9 @@ scoreboard players set ProgressionScale EBOptions 100
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #some servers may automatically seperate the world borders of different dimensions, this keeps them consistant
-execute in minecraft:overworld run worldborder set 50
-execute in minecraft:the_end run worldborder set 50
-execute in minecraft:the_nether run worldborder set 50
+execute in minecraft:overworld run worldborder set 8
+execute in minecraft:the_end run worldborder set 8
+execute in minecraft:the_nether run worldborder set 8
 worldborder center 0 0
 setworldspawn 0 64 0
 forceload add 0 0
