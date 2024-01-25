@@ -1,0 +1,1 @@
+summon bat ~ ~ ~ {NoAI:true,Silent:1b,active_effects:[{id:invisibility,amplifier:100,duration:2140000000,show_particles:0b,}],Health:1,Tags:[EBWellBat],DeathLootTable:"",PersistenceRequired:1b}

@@ -1,0 +1,19 @@
+{
+    "type":"crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SHS",
+        "SSS"
+    ],
+    "key":{
+        "S":{
+        "item":"minecraft:stone"
+        },
+        "H":{
+            "item":"minecraft:hopper"
+            }
+    },
+    "result":{
+        "item":"minecraft:knowledge_book"
+    }
+}

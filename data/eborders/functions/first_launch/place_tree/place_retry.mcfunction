@@ -1,0 +1,1 @@
+execute as @e[tag=treesummoner] at @s run function eborders:first_launch/place_tree/place_tree
