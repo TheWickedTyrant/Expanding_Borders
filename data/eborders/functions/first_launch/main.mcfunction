@@ -19,7 +19,7 @@ scoreboard players set NetherWorldBorder EBMath 8
 scoreboard players set EndWorldBorder EBMath 8
 scoreboard players set CurrentProgress EBMath 0
 scoreboard players set Expansion: EBMath 1
-scoreboard players set NextExpansion EBMath 1024
+scoreboard players set NextExpansion EBMath 2048
 scoreboard players set ExpansionBracket EBMath 1
 scoreboard players set ExpansionIncrement EBMath 0
 scoreboard players set NextBPNeeded EBMath 0

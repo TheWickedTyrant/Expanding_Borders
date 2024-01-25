@@ -2,6 +2,7 @@
 data modify storage bpcheckitem item set from entity @s SelectedItem.id
 
 
+execute if data storage minecraft:bpcheckitem {item:"minecraft:dragon_breath"} run tellraw @s {"text": "Dragon's Breath is worth 8192 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:stone"} run tellraw @s {"text": "Stone is worth 1 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:granite"} run tellraw @s {"text": "Granite is worth 16 bp","color": "#33AAFF"}
 execute if data storage minecraft:bpcheckitem {item:"minecraft:polished_granite"} run tellraw @s {"text": "Polished Granite is worth 16 bp","color": "#33AAFF"}

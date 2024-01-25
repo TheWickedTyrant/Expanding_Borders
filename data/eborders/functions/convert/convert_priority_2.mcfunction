@@ -1,4 +1,5 @@
 execute as @s[name="Stone"] run function eborders:bp/conversion/stone
+execute as @s[name="Dragon's Breath"] run function eborders:bp/conversion/dragon_breath
 execute as @s[name="Granite"] run function eborders:bp/conversion/granite
 execute as @s[name="Polished Granite"] run function eborders:bp/conversion/polished_granite
 execute as @s[name="Diorite"] run function eborders:bp/conversion/diorite
